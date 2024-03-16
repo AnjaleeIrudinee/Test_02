@@ -25,7 +25,7 @@ provider "azurerm" {
 # Define any Azure resources to be created here. A simple resource group is shown here as a minimal example.
 resource "azurerm_resource_group" "rg-aks" {
   name     = "devops"
-  location = "West Europe"
+  location = "East Europe"
   
 }
 
