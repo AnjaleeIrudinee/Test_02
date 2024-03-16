@@ -27,7 +27,7 @@ resource "azurerm_resource_group" "rg-aks" {
   name     = "devops"
   location = "West Europe"
   tags = {
-    env = dev
+    env = "dev"
   }
 }
 
