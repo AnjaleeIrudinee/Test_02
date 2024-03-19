@@ -12,7 +12,7 @@ terraform {
     resource_group_name  = "devops"
     storage_account_name = "terraformgithubactions"
     container_name       = "tfstate"
-    key                  = "demo.terraform.tfstate"
+    key                  = "prod.terraform.tfstate"
    
   }
 }
